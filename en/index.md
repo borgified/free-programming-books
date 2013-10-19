@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ###Index
 * [Meta-Lists](#meta-lists)
 * [Graphics user interfaces](#graphics-user-interfaces)

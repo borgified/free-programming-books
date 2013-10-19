@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ###Index
 * [Java](#java)
 * [Ruby](#ruby)

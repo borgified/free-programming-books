@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ###Index
 * [CoffeeScript](#coffeescript)
 * [Git](#git)

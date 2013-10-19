@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ###Index
 * [Metalistas](#metalistas)
 * [Ensamblador](#ensamblador)

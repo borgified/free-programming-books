@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ## Angular.js
 * [Angular.js Snippets for Sublime Text 2](https://github.com/maxhoffmann/angular-snippets)
 * [AngularJS Insights](http://pascalprecht.github.com/slides/angularjs-insights/#/)

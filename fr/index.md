@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ###Index
 * [Non dépendant du langage](#non-dépendant-du-langage)
 * [Assembleur](#assembleur)
