@@ -3,12 +3,12 @@ layout: default
 title: Free Programming Books
 ---
 
-##[English]({{site.url}}/en/)
-##[French]({{site.url}}/fr/) based on this [site](http://progdupeu.pl/forums/sujet/43/une-banque-de-liens)
-##[German]({{site.url}}/de/)
-##[Italian]({{site.url}}/it/)
-##[Russian]({{site.url}}/ru/)
-##[Portuguese]({{site.url}}/pt_br/)
+##[English]({{site.baseurl}}/en/)
+##[French]({{site.baseurl}}/fr/) based on this [site](http://progdupeu.pl/forums/sujet/43/une-banque-de-liens)
+##[German]({{site.baseurl}}/de/)
+##[Italian]({{site.baseurl}}/it/)
+##[Russian]({{site.baseurl}}/ru/)
+##[Portuguese]({{site.baseurl}}/pt_br/)
 
 
 ===================================
@@ -16,7 +16,7 @@ title: Free Programming Books
 Misc
 ====
 
-[Free JavaScript frameworks resources and tutorials]({{site.url}}/en/javascript-frameworks-resources.md)
+[Free JavaScript frameworks resources and tutorials]({{site.baseurl}}/en/javascript-frameworks-resources.md)
 [List of free learning resources](http://resrc.io)
 
 
@@ -36,3 +36,7 @@ How to contribute
 - Edit
 - Send a PR
 - Who might have guessed? ;)
+
+Running Jekyll locally
+======================
+jekyll serve --auto --baseurl ''

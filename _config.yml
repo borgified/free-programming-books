@@ -1,3 +1,4 @@
 name: Free Programming Books
 markdown: redcarpet
 pygments: true
+baseurl: /free-programming-books
