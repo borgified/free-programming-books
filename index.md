@@ -16,8 +16,8 @@ title: Free Programming Books
 Misc
 ====
 
-[Free JavaScript frameworks resources and tutorials]({{site.baseurl}}/en/javascript-frameworks-resources.md)
-[List of free learning resources](http://resrc.io)
+* [Free JavaScript frameworks resources and tutorials]({{site.baseurl}}/en/javascript-frameworks-resources.md)
+* [List of free learning resources](http://resrc.io)
 
 
 
