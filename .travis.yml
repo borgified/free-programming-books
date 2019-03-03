@@ -5,8 +5,8 @@ node_js:
 notifications:
   #webhooks: https://www.travisbuddy.com/?insertMode=update&only=failed,errored
   webhooks: https://www.travisbuddy.com/
-travisBuddy:
-  regex: "(.*)"
+#travisBuddy:
+#regex: "(.*)"
 before_script:
   - npm install -g free-programming-books-lint
 script: fpb-lint .
