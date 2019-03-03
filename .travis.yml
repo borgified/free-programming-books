@@ -3,7 +3,9 @@ sudo: false
 node_js:
   - 6
 notifications:
-  webhooks: https://www.travisbuddy.com/
+  webhooks: https://www.travisbuddy.com/?insertMode=update&only=failed,errored
+travisBuddy:
+  regex: "(.* warning .*-lint$)"
 before_script:
   - npm install -g free-programming-books-lint
 script: fpb-lint .
