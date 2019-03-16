@@ -1,6 +1,7 @@
 {
   "plugins": [
     "remark-preset-lint-recommended",
-    ["remark-lint-list-item-indent", false]
+    "remark-preset-lint-consistent",
+    "remark-preset-lint-markdown-style-guide"
   ]
 }
