@@ -2,3 +2,6 @@
 linters:
   remarklint:
     fixer: true
+
+files:
+  - '*.md'
