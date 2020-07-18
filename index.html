@@ -13,11 +13,13 @@
            var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
     targetUrl = 'https://github.com/borgified/free-programming-books/'
 fetch(proxyUrl + targetUrl)
-  .then((resp) => resp.json())
-   .catch(e => {
-    console.log(e);
-    return e;
-  });
+  .then(function(resp) {
+    return response.json();
+}).then(function(data){
+  console.log(data);
+}).catch(function(err){
+  console.warn('error: ',err);
+});
            
            
   </script>
