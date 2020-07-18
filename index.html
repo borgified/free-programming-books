@@ -9,7 +9,7 @@
   <body>
     
          <script>
-    await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+ octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
   owner: 'octocat',
   repo: 'hello-world',
   path: 'path'
