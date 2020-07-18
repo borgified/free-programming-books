@@ -11,7 +11,7 @@
          <script>
                     
            var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
-    targetUrl = 'https://github.com/borgified/free-programming-books/'
+    targetUrl = 'https://api.github.com/repos/borgified/free-programming-books/contents/'
 fetch(proxyUrl + targetUrl)
   .then(function(response) {
     return response.json();
