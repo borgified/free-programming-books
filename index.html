@@ -3,6 +3,16 @@
     <script type="module">
       import { Octokit } from "https://cdn.pika.dev/@octokit/core";
     </script>
+   
   </head>
   <title>hello</title>
+  <body>
+     <script>
+      await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+  owner: 'octocat',
+  repo: 'hello-world',
+  path: 'path'
+})
+    </script>
+  </body>
 </html>
