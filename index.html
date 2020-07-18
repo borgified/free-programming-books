@@ -15,7 +15,7 @@
           // https://stackoverflow.com/questions/43262121/trying-to-use-fetch-and-pass-in-mode-no-cors          
            var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
     targetUrl = 'https://api.github.com/repos/borgified/free-programming-books/contents/'
-const answer = await fetch(proxyUrl + targetUrl)
+const answer = fetch(proxyUrl + targetUrl)
   .then(function(response) {
     return response.json();
 }).then(function(data){
