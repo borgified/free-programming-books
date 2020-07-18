@@ -2,12 +2,13 @@
   <head>
     <script type="module">
       import { Octokit } from "https://cdn.pika.dev/@octokit/core";
-      const octokit = new Octokit({ auth: `personal-access-token123` });
+      const octokit = new Octokit();
 
-const response = await octokit.request("GET /orgs/:org/repos", {
-  org: "octokit",
-  type: "private",
-});
+await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+  owner: 'borgified',
+  repo: 'free-programming-books',
+  path: ''
+})
     </script>
    
   </head>
