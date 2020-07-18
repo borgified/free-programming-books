@@ -2,12 +2,12 @@
   <head>
     <script type="module">
       import { Octokit } from "https://cdn.pika.dev/@octokit/core";
-      const octokit = new Octokit();
-
-await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
-  owner: 'borgified',
-  repo: 'free-programming-books',
-  path: ''
+    </script>
+    <script type="javascript">
+    await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+  owner: 'octocat',
+  repo: 'hello-world',
+  path: 'path'
 })
     </script>
    
