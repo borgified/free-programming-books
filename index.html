@@ -9,7 +9,21 @@
   <body>
     
          <script>
-fetch("https://github.com/borgified/free-programming-books/").then(res=>res.json()).then(data=>console.log(data));
+                    
+           var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
+    targetUrl = 'https://github.com/borgified/free-programming-books/'
+fetch(proxyUrl + targetUrl)
+  .then(blob => blob.json())
+  .then(data => {
+    console.table(data);
+    document.querySelector("pre").innerHTML = JSON.stringify(data, null, 2);
+    return data;
+  })
+  .catch(e => {
+    console.log(e);
+    return e;
+  });
+           
            
   </script>
     
