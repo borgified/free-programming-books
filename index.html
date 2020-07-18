@@ -17,9 +17,10 @@ fetch(proxyUrl + targetUrl)
     return response.json();
 }).then(function(data){
   console.log(data);
-}).catch(function(err){
-  console.warn('error',err);
-});
+}).catch(e => {
+    console.log(e);
+    return e;
+  });
            
            
   </script>
