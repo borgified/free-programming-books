@@ -16,7 +16,6 @@ fetch(proxyUrl + targetUrl)
   .then(blob => blob.json())
   .then(data => {
     console.table(data);
-    document.querySelector("pre").innerHTML = JSON.stringify(data, null, 2);
     return data;
   })
   .catch(e => {
