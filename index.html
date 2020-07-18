@@ -1,8 +1,6 @@
 <html>
   <head>
-    <script type="module">
-      import { Octokit } from "https://cdn.pika.dev/@octokit/core";
-    </script>
+
 
   </head>
   <title>hello</title>
@@ -21,7 +19,9 @@ const answer = fetch(proxyUrl + targetUrl)
 }).then(function(data){
   console.log(data);
 });   
-           
+    
+    var output = JSON.stringify(answer);
+           console.log(output);
   </script>
     
   </body>
